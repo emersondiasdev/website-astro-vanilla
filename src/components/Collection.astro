@@ -1,0 +1,46 @@
+<section class="collection" id="collection">
+  <div class="container">
+    <h3>Our Collection</h3>
+    <div class="products">
+      <div class="product">
+        <h4>Forest Whisper</h4>
+        <p>Deep notes of pine, moss, and cedarwood.</p>
+      </div>
+      <div class="product">
+        <h4>Sage Bloom</h4>
+        <p>A calming blend of sage, lavender, and white tea.</p>
+      </div>
+      <div class="product">
+        <h4>Mint Serenity</h4>
+        <p>Fresh mint with soft hints of eucalyptus and vanilla.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .collection {
+    padding: 3rem 1rem;
+    background-color: var(--mint);
+  }
+  
+  .collection h3 {
+    font-size: 2rem;
+    color: var(--deep-forest-green);
+    margin-bottom: 1rem;
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .product {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(50, 96, 76, 0.1);
+  }
+</style>

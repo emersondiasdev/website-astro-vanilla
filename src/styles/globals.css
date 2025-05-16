@@ -1,0 +1,25 @@
+:root {
+	--deep-forest-green: #32604c;
+	--sage: #9db5b2;
+	--mint: #daf0ee;
+	--mint-alt: #94D1BE;
+  }
+  
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+	background-color: var(--mint);
+	color: var(--deep-forest-green);
+	line-height: 1.6;
+  }
+  
+  .container {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+  }
